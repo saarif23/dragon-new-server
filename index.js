@@ -22,7 +22,7 @@ const run = async () => {
 
     try {
         await client.db("admin").command({ ping: 1 });
-        console.log("Pinged your deployment. You successfully connected to MongoDB!");
+        console.log("Pinged your deployment. You successfully connected to MongoDB Database!");
     } finally {
 
     }
